@@ -1,3 +1,3 @@
 
-export const wastemarketplaceAddress = "0x30b962f22a7c8d9f980fec3670dbb44dc17b5bcb";
+export const wastemarketplaceAddress = "0x8628d91E8311B4856ae7d3E317a0E8fFf48E0f98";
 

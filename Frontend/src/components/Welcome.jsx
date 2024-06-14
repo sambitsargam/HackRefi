@@ -11,16 +11,16 @@ const injected = injectedModule();
 
 const modules = [walletConnect, injected];
 
-const RPC_URL = "https://rpc.public.zkevm-test.net";
+const RPC_URL = "https://sepolia.optimism.io";
 
 const onboard = Onboard({
   wallets: modules, // created in previous step
   chains: [
     {
-      id: "0x5a2",
+      id: "0xaa37dc",
       token: "ETH",
       namespace: "evm",
-      label: "ZKEVM Polygon Testnet",
+      label: "OP Sepolia",
       rpcUrl: RPC_URL,
     },
   ],
